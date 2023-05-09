@@ -32,9 +32,11 @@ public class ProcessUtil {
      */
     public static List<Process> createFixProcessList() {
         List<Process> processList = new ArrayList<>();
-        processList.add(new Process(0, 15, 4, 4));
-        processList.add(new Process(1, 16, 2, 2));
-        processList.add(new Process(2, 18, 1, 3));
+        processList.add(new Process(1, 0, 3, 1));
+        processList.add(new Process(2, 6, 4, 2));
+        processList.add(new Process(3, 3, 16, 3));
+        processList.add(new Process(4, 6, 2, 3));
+        processList.add(new Process(5, 5, 3, 3));
         return processList;
     }
 

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Process> processList = ProcessUtil.createProcessList();
+        List<Process> processList = ProcessUtil.createFixProcessList();
         ProcessUtil.printProcessList(processList);
 
         //FCFS
