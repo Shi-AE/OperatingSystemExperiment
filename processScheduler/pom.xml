@@ -21,6 +21,7 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+        <!--控制台表格绘制器-->
         <dependency>
             <groupId>de.vandermeer</groupId>
             <artifactId>asciitable</artifactId>
@@ -34,8 +35,8 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
