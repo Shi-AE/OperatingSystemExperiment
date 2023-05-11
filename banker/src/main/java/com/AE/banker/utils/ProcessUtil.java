@@ -94,6 +94,9 @@ public class ProcessUtil {
         });
     }
 
+    /**
+     * 判断是否为安全序列
+     */
     private static boolean isSave(List<Process> processList) {
         for (Process process : processList) {
             if (!process.getFinish()) {
@@ -111,9 +114,7 @@ public class ProcessUtil {
         at.addRule();
         if (!isSave(processList)) {
             List<String> rowList = new ArrayList<>();
-            processList.forEach(process -> {
-                rowList.add(process.getPid());
-            });
+            processList.forEach(process -> rowList.add(process.getPid()));
             rowList.add("不能满足请求");
             at.addRow(rowList);
             at.addRule();

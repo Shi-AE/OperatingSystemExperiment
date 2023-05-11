@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         //初始化进程资源
-        List<Process> processList = ProcessUtil.createProcessList();
+        List<Process> processList = ProcessUtil.createProcessList(5, 4);
         ProcessUtil.printProcessList(processList);
         //初始化可用资源
         List<Integer> available = AvailableUtil.createAvailableByRandom(processList.get(0).getNeed().size());
