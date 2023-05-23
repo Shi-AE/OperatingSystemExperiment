@@ -52,7 +52,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.AE.ps.main.Main</mainClass>
+                            <mainClass>com.AE.ps.main.com.AE.main.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
